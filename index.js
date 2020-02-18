@@ -429,6 +429,11 @@ MiAqaraPlatform.prototype.parseMessage = function(msg, rinfo) {
         return;
     }
     
+    // fix mac address bug when mac address start with "0"
+    if (jsonObj['sid'].length < 12) {
+        jsonObj['sid'] =  "0" + jsonObj['sid'];
+    }
+    
     // send mqtt message
     if(that.mqttClient) {
         that.sendMQTTMessage4ParseMessage(msg, rinfo);
