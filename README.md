@@ -1,4 +1,4 @@
-# homebridge-mi-aqara
+# homebridge-mi-aqara-fakegato
 [![npm version](https://badge.fury.io/js/homebridge-mi-aqara.svg)](https://badge.fury.io/js/homebridge-mi-aqara)
 [![npm version](https://img.shields.io/badge/releases-0.8.0-blue.svg)](https://github.com/YinHangCode/homebridge-mi-aqara)
 [![npm version](https://img.shields.io/badge/dev-0.8.0-yellow.svg)](https://github.com/YinHangCode/homebridge-mi-aqara/tree/dev)
@@ -17,6 +17,8 @@ Thanks for
 [isundaylee](https://github.com/isundaylee), 
 [ileler](https://github.com/ileler), 
 [myriky](https://github.com/myriky), 
+[SeydX](https://github.com/SeydX), for fakegato integration 
+[HolmesZhao](https://github.com/HolmesZhao), for fixing mac address bug
 all other developer and testers.   
 
 **Note: I have only a part of these devices, so some devices don't have tested. If you find bugs, please submit them to [issues](https://github.com/YinHangCode/homebridge-mi-aqara/issues) or [QQ Group: 107927710](//shang.qq.com/wpa/qunwpa?idkey=8b9566598f40dd68412065ada24184ef72c6bddaa11525ca26c4e1536a8f2a3d).**
