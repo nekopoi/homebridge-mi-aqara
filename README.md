@@ -867,6 +867,8 @@ mv cachedAccessories cachedAccessories_\`date '+%Y%m%d_%H%M%S'\`.bak
 echo [] > cachedAccessories   
 
 ## Version Logs
+### 0.8.1.1 (2020-02-18)
+1. fix mac address bug when mac address start with "0".
 ### 0.8.1 (2019-04-28)
 1. add fakegato-history. 
 ### 0.8.0 (2018-11-04)
